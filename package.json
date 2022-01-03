@@ -1,0 +1,25 @@
+{
+  "name": "count-length",
+  "version": "1.0.0",
+  "description": "Library to count the length of JavaScript/TypeScript",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "typescript": "~4.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinnopo/count-length.git"
+  },
+  "author": "shinnopo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shinnopo/count-length/issues"
+  },
+  "homepage": "https://github.com/Shinnopo/count-length#readme"
+}
