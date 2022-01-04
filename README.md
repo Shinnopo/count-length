@@ -2,13 +2,15 @@
 
 count-length is a module that returns the length of a JavaScript string, array, or object.
 
-    import { len } from "count-length"
+~~~JavaScript
+import { len } from "count-length"
 
-    console.log(len("test")) // 4
-    console.log(len([1,2,3,4])) // 4
-    console.log(len({id: 1, name: "john"})) // 2
-    console.log(len([1,2],[3,4])) // 2
-    console.log(len(123)) // This argument type is number. The argument must be of type number of object.
+console.log(len("test")) // 4
+console.log(len([1,2,3,4])) // 4
+console.log(len({id: 1, name: "john"})) // 2
+console.log(len([1,2],[3,4])) // 2
+console.log(len(123)) // This argument type is number. The argument must be of type number of object.
+~~~
 
 ## Installation
 
@@ -25,9 +27,9 @@ Installation is done using the npm install command:
 Depending on your environment, you may need to add the following to package.json
 
 ~~~JSON
-    {
-        "type": "module"
-    }
+{
+    "type": "module"
+}
 ~~~
 
 ## Features
